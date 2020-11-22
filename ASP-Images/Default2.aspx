@@ -24,9 +24,12 @@
            </div>
            <div class="row">
                
+               
                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 p-5">
-
-                      <div class="form-group">
+                   
+                   <div class="card" style="width: 25rem; background-color:rgba(255,255,255,1); opacity:0.8; margin:15vh;">
+                       <div class="card-body bg-transparent">
+                           <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                           <br />
                           <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server"></asp:TextBox>
@@ -42,7 +45,10 @@
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div>
                       <asp:Button ID="Button1" runat="server" Text="Button" CssClass="btn btn-primary"/>
-                    </form>
+                    </div>
+                       </div>
+                         
+                     
 
                </div>
                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
